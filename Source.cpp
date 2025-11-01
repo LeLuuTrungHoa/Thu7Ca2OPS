@@ -1,18 +1,23 @@
 #include <iostream>
 
 using namespace std;
+
+
 int tong(int a, int b){
 	return a + b;
 }
 int hieu(int a, int b){
 	return a - b;
 }
-int tich(int a, int b);
+int tich(int a, int b){
+	return a*b;
+}
 float thuong(int a, int b);
+
 bool kiemTraSNT(int n) {
     if (n <= 1) {
-<<<<<<< Updated upstream
-=======
+
+
         return false;
     }
     int limit = sqrt(n);
@@ -25,7 +30,7 @@ bool kiemTraSNT(int n) {
 }
 bool ktrsochinhphuong(int n) {
     if (n < 0) {
->>>>>>> Stashed changes
+
         return false;
     }
     int limit = sqrt(n);
@@ -35,27 +40,38 @@ bool ktrsochinhphuong(int n) {
         }
     }
     return true;
+
+bool ktrsochinhphuong(int n) {
+    if (n < 0) {
+        return false;
+    }
+    double squareRoot = sqrt(n);
+    return (squareRoot == floor(squareRoot));
+
 }
 int main()
 {
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
 	cout << "Ví dụ a là 2, b là 1";
 	cout<<"Tong =" << tong(2,1);
-<<<<<<< Updated upstream
+
 	cout<<"Hieu =" << hieu(2,1);
 	cout<<"Kiem tra so 7 co phai so nguyen to";
 	if(kiemTraSNT(7)){
 		cout<<"7 la so nguyen to";
 	}
-=======
+
 	cout<<"Hieu =" << hieu(2,1);;
 	cout<<"ChinhPhuong =" << ktrsochinhphuong(9);
+
 	cout<<"Kiem tra 7 co phai so nguyen to";
 	if(kiemTraSNT(7))
 		cout<<"7 la so nguyen to";
->>>>>>> Stashed changes
+
 	else
 		cout<<"7 khong la so nguyen to";
+
+
 	system("pause");
 	return 0;
 }
