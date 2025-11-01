@@ -8,7 +8,12 @@ float thuong(int a, int b);
 int main()
 {
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
+	hieu(3,4);
 	cout<<"Tong =";
 	system("pause");
 	return 0;
 }
+int hieu(int a, int b)
+	{
+		return a - b;
+	}
