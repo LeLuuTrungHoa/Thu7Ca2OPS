@@ -68,7 +68,6 @@ int main()
 	if(kiemTraSNT(7)){
 		cout<<"7 la so nguyen to";
 	}
-	cout<<"nhanh1";
 	cout<<"Hieu =" << hieu(2,1);;
 	cout<<"ChinhPhuong =" << ktrsochinhphuong(9);
 
