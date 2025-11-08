@@ -81,6 +81,7 @@ int main()
 	cout<<"Main";
 	cout<<"Nhanh2";
 	cout<<"Cau2Nhanh2Lan2";
+	cout<<"Nhanh3";
 	system("pause");
 	return 0;
 }
