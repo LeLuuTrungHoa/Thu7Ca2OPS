@@ -79,6 +79,7 @@ int main()
 		cout<<"7 khong la so nguyen to";
 	
 	cout<<"Main";
+	cout<<"Nhanh2";
 	system("pause");
 	return 0;
 }
