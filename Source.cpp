@@ -2,7 +2,7 @@
 
 using namespace std;
 
-
+//note cau3
 int tong(int a, int b){
 	return a + b;
 }
