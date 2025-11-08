@@ -78,8 +78,7 @@ int main()
 
 	else
 		cout<<"7 khong la so nguyen to";
-
-
+	
 	system("pause");
 	return 0;
 }
