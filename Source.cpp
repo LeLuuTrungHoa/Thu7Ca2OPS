@@ -62,13 +62,13 @@ int main()
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
 	cout << "Ví dụ a là 2, b là 1";
 	cout<<"Tong =" << tong(2,1);
-
+	
 	cout<<"Hieu =" << hieu(2,1);
 	cout<<"Kiem tra so 7 co phai so nguyen to";
 	if(kiemTraSNT(7)){
 		cout<<"7 la so nguyen to";
 	}
-
+	cout<<"nhanh1";
 	cout<<"Hieu =" << hieu(2,1);;
 	cout<<"ChinhPhuong =" << ktrsochinhphuong(9);
 
